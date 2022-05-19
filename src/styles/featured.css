@@ -2,6 +2,8 @@
     border-radius: 20px;
     transition: box-shadow 0.3s;
     width: 900px;
+    display: flex;
+    flex-direction: row;
 }
 
 .featured:hover {
@@ -14,4 +16,16 @@
     margin: 5px;
     padding: 20px;
     border-radius: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.details p span {
+    color: #363062;
+    font-weight: bold;
+    text-shadow: 1px 1px #4D4C7D;
 }
