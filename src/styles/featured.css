@@ -1,0 +1,17 @@
+.featured {
+    border-radius: 20px;
+    transition: box-shadow 0.3s;
+    width: 900px;
+}
+
+.featured:hover {
+    box-shadow: 4px 4px 30px black;
+}
+
+.featuredImage {
+    height: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 30px;
+}

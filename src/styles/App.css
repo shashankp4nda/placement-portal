@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: absolute;
+  margin-left: 350px;
+}
+
+.feat {
+  display: flex;
+  flex-direction: row;
+}
+
+.featSign {
+  width: fit-content;
+  margin: 40px;
+  margin-left: 500px;
+}
+
+.next {
+  height: 40px;
+  width: 40px;
+  margin: auto 60px;
+}

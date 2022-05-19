@@ -1,23 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Sidebar from './components/sidebar'
+import Featured from './components/featured'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar />
+      <div className='content'>
+        <h5 className='featSign'>F E A T U R E D</h5>
+        <div className='feat'>
+          <Featured /> 
+          <img className='next' src='../images/next.png' />
+        </div>
+      </div>
     </div>
   );
 }
