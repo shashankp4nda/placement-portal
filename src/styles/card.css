@@ -1,0 +1,37 @@
+.card {
+    min-width: 300px;
+    margin: 25px;
+    min-height: 80%;
+    margin-left: 40px;
+    position: relative;
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #d1d1d1;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 15px black;
+}
+
+h2 {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+#apply2 {
+    position: absolute;
+    margin-left: 80%;
+    ;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}

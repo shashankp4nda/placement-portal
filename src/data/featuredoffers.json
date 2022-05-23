@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Facebook",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "24LPA"
+    },
+    {
+        "name": "Google",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "24LPA"
+    },
+    {
+        "name": "Oracle",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "24LPA"
+    },
+    {
+        "name": "Amazon",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "24LPA"
+    }
+]

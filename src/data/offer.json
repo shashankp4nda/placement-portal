@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Infosys",
+        "role": "Analyst",
+        "skills": "Excel, Database",
+        "compensation": "8LPA"
+    },
+    {
+        "name": "Oracle",
+        "role": "Software Dev",
+        "skills": "Java",
+        "compensation": "12LPA"
+    },
+    {
+        "name": "Citi",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "14LPA"
+    },
+    {
+        "name": "Amazon",
+        "role": "Software Dev",
+        "skills": "react, node, express",
+        "compensation": "24LPA"
+    }
+]
