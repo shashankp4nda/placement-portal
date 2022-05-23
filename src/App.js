@@ -5,6 +5,13 @@ import Featured from './components/featured'
 import Card from './components/card'
 import offers from './data/offer.json'
 
+function GeneralOffers() {
+  let row = [];
+  offers.forEach(offer => {
+    row.push(<Card name={offer.name} role={offer.role} skills={offer.skills} compensation={offer.compensation}/>)
+  });
+  return row;
+}
 
 function App() {
   return (
@@ -17,11 +24,7 @@ function App() {
         </div>
         <h5 className='generalSign'>G E N E R A L  .  O F F E R S</h5>
         <div className='offersRow'>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        {GeneralOffers()}
         </div>
       </div>
     </div>
