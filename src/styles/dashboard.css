@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    position: absolute;
+    margin-left: 350px;
+  }
+  
+  .feat {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .featSign {
+    width: fit-content;
+    margin: 40px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+  }
+  
+  .generalSign {
+    width: fit-content;
+    margin: 40px;
+    margin-left: 430px;
+    margin-bottom: 10px;
+  }
+  
+  .offersRow {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;  
+    width: 1000px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    border-right: 30px solid #f1f1f1;
+  
+  }
