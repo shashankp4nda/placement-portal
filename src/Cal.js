@@ -4,13 +4,23 @@ import Calendar from 'react-calendar/dist/umd/Calendar';
 import 'react-calendar/dist/Calendar.css';
 import './styles/Cal.css';
 import { useState } from 'react';
+import appointments from './data/appointments.json';
+
+function showAppointments(date) {
+  let onDateApps = [];
+  appointments.forEach(appointment => {
+    if(appointment.date == date) {
+
+    }
+  });
+}
 
 function Cal() {
   const [date, setDate] = useState(new Date());
   return (
     <div className="App">
       <Sidebar />
-      <div className='content'>
+      <div className='content-c'>
         <Calendar 
           onChange={setDate}
           value={date}

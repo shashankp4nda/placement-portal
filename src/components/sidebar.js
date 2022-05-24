@@ -12,13 +12,10 @@ export default class Sidebar extends Component {
           <img class='profileImage' src='./images/no_user.png' />
           <h3>Welcome, <b>{name}</b></h3>
         </div>
-        <div className='links'>
-            <a href="/">Dashboard</a>
-            <a>Edit profile</a>
-            <a href="./Calendar">Calender</a>
-            <a>Question Bank</a>
-            <a>Help</a>
-        </div>
+        <nav className='links'>
+            <Link to="/">Dashboard</Link>
+            <Link to="./cal">Calender</Link>
+        </nav>
         <a className='lo'>logout</a>
       </div>
     )

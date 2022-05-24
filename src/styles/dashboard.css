@@ -1,13 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .content {
-    position: absolute;
+
+  .content-d {
+    display: flex;
+    flex-direction: column;
     margin-left: 350px;
   }
-  
+
   .feat {
     display: flex;
     flex-direction: row;

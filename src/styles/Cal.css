@@ -1,8 +1,9 @@
 
 
-.content {
+.content-c {
     display: flex;
     flex-direction: row;
+    margin-left: 350px;
 }
 
 .appointments {

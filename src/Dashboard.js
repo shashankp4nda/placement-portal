@@ -16,18 +16,18 @@ function GeneralOffers() {
 
 function Dashboard() {
   return (
-    <div className="App">
-      <Sidebar />
-      <div className='content'>
-        <h5 className='featSign'>F E A T U R E D</h5>
-        <div className='feat'>
-          <Featured /> 
+    <div>
+        <Sidebar />
+        <div className='content-d'>
+          <h5 className='featSign'>F E A T U R E D</h5>
+          <div className='feat'>
+            <Featured /> 
+          </div>
+          <h5 className='generalSign'>G E N E R A L  .  O F F E R S</h5>
+          <div className='offersRow'>
+          {GeneralOffers()}
+          </div>
         </div>
-        <h5 className='generalSign'>G E N E R A L  .  O F F E R S</h5>
-        <div className='offersRow'>
-        {GeneralOffers()}
-        </div>
-      </div>
     </div>
   );
 }
