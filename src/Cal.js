@@ -6,13 +6,23 @@ import './styles/Cal.css';
 import { useState } from 'react';
 import appointments from './data/appointments.json';
 
-function showAppointments(date) {
+function showAppointments(on) {
   let onDateApps = [];
+  let flag = 0;
   appointments.forEach(appointment => {
-    if(appointment.date == date) {
-
+    if(appointment.date === on) {
+      onDateApps.push(<li><h3>{appointment.event}</h3> @ {appointment.time}</li>);
+      flag += 1;
     }
   });
+  if (flag == 0) {
+    onDateApps.push(<p style={{"font-size": "0.7rem", "margin-right": "50%"}}>No Appoinments scheduled for this today</p>);
+  }
+  return  (
+    <ul>
+      {onDateApps}
+    </ul>
+  )
 }
 
 function Cal() {
@@ -29,6 +39,7 @@ function Cal() {
           <h1>Appointments</h1>
           <p>Please select a date to view appointments</p>
           <h4>Here are your appointments on { date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear() }</h4>
+          {showAppointments(date.getDate() + "-" + date.getMonth() + "-" + date.getFullYear())}
         </div>
       </div>
     </div>

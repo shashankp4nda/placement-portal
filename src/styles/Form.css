@@ -1,0 +1,20 @@
+
+.field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.field h3 {
+    text-align: left;
+}
+
+.field input[type=text] {
+    width: 150px;
+}
+
+#submit {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}

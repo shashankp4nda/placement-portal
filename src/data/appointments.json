@@ -5,6 +5,11 @@
         "event": "Google interview"
     }, 
     {
+        "date": "24-4-2022",
+        "time": "3 PM",
+        "event": "Amazon interview"
+    }, 
+    {
         "date": "26-4-2022", 
         "time": "3PM",
         "event": "oracle coding test"

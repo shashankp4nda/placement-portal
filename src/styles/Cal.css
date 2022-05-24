@@ -16,8 +16,9 @@
     border: 1px solid #d1d1d1;
     border-radius: 20px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    background-image: linear-gradient(to right, #68677a, #363062);
     align-items: center;
+    color: white;
     margin-bottom: 20px;
     transition: transform 0.3s;
 }

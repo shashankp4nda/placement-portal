@@ -15,6 +15,7 @@ export default class Sidebar extends Component {
         <nav className='links'>
             <Link to="/">Dashboard</Link>
             <Link to="./cal">Calender</Link>
+            <Link to="./edit_profile">Edit Profile</Link>
         </nav>
         <a className='lo'>logout</a>
       </div>
