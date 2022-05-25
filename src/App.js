@@ -5,25 +5,18 @@ import Question from './Question';
 import { Switch } from 'react-router-dom';
 import EditProfile from './EditProfile';
 import Help from './Help'
+import StudentRoutes from './StudentRoutes';
+import AdminRoutes from './AdminRoutes';
 
 function App() {
   return (
     <Router>
         <Switch>
           <Route exact path="/">
-            <Dashboard />
+            <StudentRoutes />
           </Route>
-          <Route path="/cal">
-            <Cal />
-          </Route>
-          <Route path="/edit_profile">
-            <EditProfile />
-          </Route>
-          <Route path="/question">
-            <Question />
-          </Route>
-          <Route path="/help">
-            <Help />
+          <Route path="/admin">
+            <AdminRoutes />
           </Route>
         </Switch>
     </Router>
