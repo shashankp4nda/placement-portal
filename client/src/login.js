@@ -9,7 +9,7 @@ function Login(){
     const [loginstatus, setLoginStatus] = useState("");
     const history = useHistory();
     const Validate = () =>{
-      Axios.post('http://localhost:5000/login',{
+      Axios.post('http://localhost:8080/login',{
         uname:usernameReg, pass: passwordReg
       }).then((response)=>{
         if(response.data === "student"){

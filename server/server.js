@@ -51,8 +51,8 @@ app.post("/update",async function(req,res) {
     }
 })
 
-app.listen(5000, function(){
-    console.log("server is running on port 5000");
+app.listen(8080, function(){
+    console.log("server is running on port 8080");
   })
 
 async function getLogin(client,namelisting){

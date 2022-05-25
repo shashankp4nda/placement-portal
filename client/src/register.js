@@ -9,7 +9,7 @@ function Register(){
     
     const history = useHistory();
     const Reg = () =>{
-      Axios.post('http://localhost:5000/reg',{
+      Axios.post('http://localhost:8080/reg',{
         uname:usernameReg, pass: passwordReg , type: typeReg
       }).then((response)=>{
         console.log(response);
