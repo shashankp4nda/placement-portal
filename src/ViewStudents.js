@@ -8,12 +8,12 @@ function studentList() {
     students.forEach(student => {
         list.push(
             <div className='studentBlock'>
-                <h3>{student.name}</h3>
-                <div className='row'><h4>email: </h4><p>{student.email}</p></div>
-                <div className='row'><h4>Gender: </h4><p>{student.gender}</p></div>
-                <div className='row'><h4>phone: </h4><p>{student.phone}</p></div>
-                <div className='row'><h4>GPA: </h4><p>{student.GPA}</p></div>
-                <div className='row'><h4>Higher Studies: </h4><p>{student.hs}</p></div>
+                <h1>{student.name}</h1>
+                <div className='row'><h3>email: </h3><p>{student.email}</p></div>
+                <div className='row'><h3>Gender: </h3><p>{student.gender}</p></div>
+                <div className='row'><h3>phone: </h3><p>{student.phone}</p></div>
+                <div className='row'><h3>GPA: </h3><p>{student.GPA}</p></div>
+                <div className='row'><h3>Higher Studies: </h3><p>{student.hs}</p></div>
             </div>
         )
     });
@@ -26,7 +26,7 @@ function ViewStudents() {
         <AdminSidebar />
         <div className='content-vs'>
             <h1>List of Registered Students: </h1>
-            {studentList()}
+            <div className='records'>{studentList()}</div>
         </div>
     </div>
   )
