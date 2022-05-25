@@ -4,18 +4,34 @@ h1 {
 
 }
 
+.Help h2 {
+    width: fit-content;
+    margin: 10px;
+}
+
 details{
     font-size:1.5rem;
     margin-left: 60px;
 
 }
-summary{
-    font-size:1.5rem;
-    margin-left: 60px;
+
+details p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
 }
-p{
+
+summary{
+    font-size:1.7rem;
+    margin-left: 60px;
+    font-weight: bold;
+}
+.Help p{
     font-size: 1rem;
     margin-left: 80px;
+    width: 300px;
+    text-align: justify;
 }
 
 .content-h {
