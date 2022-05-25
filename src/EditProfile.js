@@ -14,6 +14,8 @@ function EditProfile() {
             <div className='field'><h2>Gender: </h2><input type="text" name="email" /></div>
             <div className='field'><h2>Phone Number: </h2><input type="text" name="email" /></div>
             <div className='field'><h2>Skills: </h2><input type="text" name="email" /></div>
+            <div className='field'><h2>GPA: </h2><input type="text" name="GPA" /></div>
+            <div style={{"width": "fit-content"}} className='field'><h2>Higher Studies?</h2><input type="checkbox" name="hs"></input></div>
             <input id="submit" type="submit" value="submit" />
           </form>
         </div>

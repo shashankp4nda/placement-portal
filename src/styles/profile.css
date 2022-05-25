@@ -34,6 +34,11 @@ h1 {
     margin: auto 30px;
 }
 
+.field input[type=checkbox] {
+    margin: auto 20px;
+}
+
+
 #submit {
     border-radius: 5px;
     background-color: white;
