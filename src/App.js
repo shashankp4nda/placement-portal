@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import Cal from './Cal';
+import Question from './Qusetion';
 import { Switch } from 'react-router-dom';
 import EditProfile from './EditProfile';
+import Help from './Help'
 
 function App() {
   return (
@@ -16,6 +18,12 @@ function App() {
           </Route>
           <Route path="/edit_profile">
             <EditProfile />
+          </Route>
+          <Route path="/question">
+            <Question />
+          </Route>
+          <Route path="/help">
+            <Help />
           </Route>
         </Switch>
     </Router>
