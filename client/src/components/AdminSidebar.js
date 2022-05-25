@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
         </div>
         <nav className='links'>
             <Link to="./admin">Help</Link>
-            <Link to="./ViewStudents">Student Lists</Link>
+            <Link to="./viewstudents">Student Lists</Link>
             <Link to="./ViewOffers">Active Offers</Link>
             
         </nav>
