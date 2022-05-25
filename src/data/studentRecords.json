@@ -1,0 +1,50 @@
+[
+    {
+        "email": "abc@gmail.com",
+        "name": "Shashank",
+        "gender": "M", 
+        "phone": "35927543", 
+        "GPA": "8.7", 
+        "hs": "0"
+    },
+    {
+        "email": "vsbdo@ubsv.com",
+        "name": "Shravan",
+        "gender": "M", 
+        "phone": "349534332", 
+        "GPA": "9.2", 
+        "hs": "0"
+    },
+    {
+        "email": "duabo@fobv.com",
+        "name": "Sai Shridhar",
+        "gender": "M", 
+        "phone": "475842823", 
+        "GPA": "9.0", 
+        "hs": "1"
+    },
+    {
+        "email": "fuaeb@fibu.com",
+        "name": "Shreesh",
+        "gender": "M", 
+        "phone": "93374323", 
+        "GPA": "8.4", 
+        "hs": "0"
+    },
+    {
+        "email": "coebo@fisub.com",
+        "name": "caebuv",
+        "gender": "F", 
+        "phone": "23445345", 
+        "GPA": "9.3", 
+        "hs": "0"
+    },
+    {
+        "email": "cobvoe@vosv.com",
+        "name": "efoubco",
+        "gender": "F", 
+        "phone": "34435242", 
+        "GPA": "7.4", 
+        "hs": "1"
+    }
+]
