@@ -8,17 +8,17 @@ function AdminHelp()
         <div className="Help">
             <AdminSidebar />
             <div className="content-h">
-                <h1>Help</h1>      
+                <h1>Admin Help</h1>      
                 <details>
-                    <summary>Dashboard</summary>
-                    <p>Contains a concise Description of all the opportunities available. </p>
+                    <summary>Student List</summary>
+                    <p>Contains a Description of all the student records. </p>
                 </details>
                 <br />
                 <br />
                 <br />
                 <details>
-                    <summary>Calendar</summary>
-                    <p>Displays a calendar containing all applied interviews and tests.</p>
+                    <summary>View Offers</summary>
+                    <p>Displays all the offers available to students</p>
                 </details>
                 <br />
                 <br />
@@ -27,13 +27,7 @@ function AdminHelp()
                     <summary>Edit Profile</summary>
                     <p>Allows Students to edit their profiles.</p>
                 </details>
-                <br />
-                <br />
-                <br />
-                <details>
-                    <summary>Question Bank</summary>
-                    <p>This page contains every aspect of interviews and tests that students could be prepared for </p>
-                </details>
+        
                 <br></br>
                 <br />
                 <br />
@@ -41,7 +35,7 @@ function AdminHelp()
                 <br />
                 <br />
                 <br />
-                <h3>For any issues contact admin@:  xyz@ssn.edu.in</h3>
+                <h3>For any issues contact Main management@:  xyz@ssn.edu.in</h3>
             </div>
           
         </div>
