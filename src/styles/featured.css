@@ -6,7 +6,7 @@
     flex-direction: row;
     background-color: #f1f1f1;
     border: 1px solid #d1d1d1;
-    margin-left: 75px;
+    margin-left: 0px;
 }
 
 .featured:hover {
@@ -32,6 +32,12 @@ h3 {
     display: flex;
     flex-direction: column;
     margin: 15px;
+    align-items: left;
+}
+
+.details h1 {
+    width: fit-content;
+    margin-left: 0px;
 }
 
 .details p span {
@@ -55,6 +61,6 @@ h3 {
     cursor: pointer;
     padding: 10px;
     margin-top: 300px;
-    margin-left: 20px;
+    margin-right: 20%;
     background-color: white;
 }

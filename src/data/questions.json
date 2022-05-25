@@ -1,0 +1,110 @@
+[
+    {
+        "topic": "DSA",
+        "question": "DSA Question 1",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DSA",
+        "question": "DSA Question 2",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DSA",
+        "question": "DSA Question 3",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DSA",
+        "question": "DSA Question 4",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DSA",
+        "question": "DSA Question 5",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Web Development",
+        "question": "Web Development Question 1",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Web Development",
+        "question": "Web DevelopmentWeb Development Question 2",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Web Development",
+        "question": "Web Development Question 3",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Web Development",
+        "question": "Web Development Question 4",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Networks",
+        "question": "Networks Question 1",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Networks",
+        "question": "Networks Question 2",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "Networks",
+        "question": "Networks Question 3",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 1",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 2",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 3",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 4",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 5",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    },
+    {
+        "topic": "DBMS",
+        "question": "DBMS Question 6",
+        "options": ["option1", "option2", "option3", "option4"],
+        "answer": "(3)"
+    }
+]
