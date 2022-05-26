@@ -9,6 +9,7 @@ import Dashboard from './Dashboard';
 import StudentRoutes from './StudentRoutes';
 import AdminRoutes from './AdminRoutes';
 import Register from './register';
+import RecruiterRoutes from './RecruiterRoutes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,6 +26,9 @@ root.render(
           </Route>
           <Route exact path="/register">
             <Register/>
+          </Route>
+          <Route exact path="/recruiter">
+            <RecruiterRoutes />
           </Route>
       </Switch>
     </Router>

@@ -22,7 +22,7 @@ function Login(){
         }
         else if(response.data === "recruiter"){
           console.log("route to recruiter");
-          //history.push();
+          history.push("/recruiter");
         }
         else{
           setLoginStatus("password mismatch");

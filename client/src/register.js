@@ -39,7 +39,7 @@ function Register(){
                   <select name="type" onChange={(e)=>{
                     setTypeReg(e.target.value);
                   }}>
-                      <option value="admin">Admin</option>
+                      <option value="admin">Admin</option> 
                       <option value="recruiter">Recruiter</option>
                       <option value="student">Student</option> 
                   </select><br/>

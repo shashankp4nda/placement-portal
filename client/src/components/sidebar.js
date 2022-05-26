@@ -2,15 +2,13 @@ import React, { Component } from 'react'
 import '../styles/Sidebar.css';
 import { Link } from 'react-router-dom';
 
-var name="Shashank"
-
 export default class Sidebar extends Component {
   render() {
     return (
       <div className='sidebar'>
         <div className="greeting">
           <img className='profileImage' src='./images/no_user.png' />
-          <h3>Welcome, <b>{name}</b></h3>
+          <h3>Welcome, <b>USER</b></h3>
         </div>
         <nav className='links'>
             <Link to="/dashboard">Dashboard</Link>

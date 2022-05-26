@@ -1,0 +1,35 @@
+.content-uj {
+    margin-left: 350px;
+    position: absolute;
+}
+
+.content-uj h1 {
+    font-size: 2.5rem;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.jobForm {
+    margin-left: 20%;
+}
+
+.content-uj .field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin: 20px;
+    margin-left: 120px;
+}
+
+.content-uj #submit {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.1rem;
+    width: fit-content;
+    margin-left: 310px;
+    margin-top: 20px;
+    cursor: pointer;
+}
