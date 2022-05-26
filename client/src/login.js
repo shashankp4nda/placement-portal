@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Axios from 'axios';
 import {useHistory} from "react-router-dom";
-//import "./client.css";
+import "./styles/login.css";
 
 function Login(){
     const [usernameReg, setUsernameReg] = useState("");
@@ -35,19 +35,25 @@ function Login(){
     }
 
     return(
-            <div>
+            <div className="loginBlock">
                 <h1>Login</h1><br/>
-                <p>{loginstatus}</p><br/>
-                <label>Username</label><br/>
-                <input type="text" name="uname" onChange={(e)=>{
-                  setUsernameReg(e.target.value);
-                }}/><br/>
-                <label>Password</label><br/>
-                <input type="password" name="pass" onChange={(e)=>{
-                  setPasswordReg(e.target.value);
-                }}/><br/>
-                <button onClick= {Validate}>Login</button>
-                <button onClick = {Create}>Create Account</button>
+                <p>{loginstatus}</p>
+                <div className="logField">
+                  <label>Username</label><br/>
+                  <input type="text" name="uname" onChange={(e)=>{
+                    setUsernameReg(e.target.value);
+                  }}/><br/><br />
+                </div>
+                <div className="logField">
+                  <label>Password</label><br/>
+                  <input type="password" name="pass" onChange={(e)=>{
+                    setPasswordReg(e.target.value);
+                  }}/><br/>
+                </div>
+                <div className="logBtnRow">
+                  <button className="logBtn" onClick= {Validate}>Login</button>
+                  <button className="logBtn" onClick = {Create}>Create Account</button>
+                </div>
             </div>
 
     );

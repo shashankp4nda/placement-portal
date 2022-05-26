@@ -1,0 +1,50 @@
+.loginBlock {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10% auto;
+    background-color: #f1f1f1;
+    border: 1px solid #a7a7a7;
+}
+
+.loginBlock h1 {
+    margin-left: 40%;
+}
+
+.loginBlock label {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logField {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: fit-content;
+    margin: 20px 0;
+    margin-left: 15%;
+}
+
+.logField input[type=text] {
+    height: 20px;
+    margin: auto 20px;
+}
+
+.logField input[type=password] {
+    height: 20px;
+    margin: auto 20px;
+}
+
+.logBtnRow {
+    margin-left: 30%;
+}
+
+.logBtn {
+    cursor: pointer;
+    background-color: white;
+    padding: 7.5px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
