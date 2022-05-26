@@ -51,6 +51,14 @@ app.post("/update",async function(req,res) {
     }
 })
 
+app.post("/viewStudents",async function(req,res) {
+    var result = await retrieveDoc(client,"shreesh",'StudentDetails');
+    if(result){
+        console.log("Profile retrieved");
+        res.send(result);
+    }
+})
+
 app.listen(8080, function(){
     console.log("server is running on port 8080");
   })
@@ -70,6 +78,15 @@ async function getLogin(client,namelisting){
 async function createDoc(client,newListing,coll){
     const result = await client.db('PlacementPortal').collection(coll).insertOne(newListing);
     console.log("Database updated with the following id: "+result.insertedId)
+    if(result) {
+        return result;
+    }
+}
+
+async function retrieveDoc(client,nameListing,coll){
+    const result = await client.db('PlacementPortal').collection(coll).find().toArray();
+    console.log("Database retrieval successful");
+    console.log(result);
     if(result) {
         return result;
     }
